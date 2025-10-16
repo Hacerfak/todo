@@ -1,4 +1,5 @@
 {
+    "@@locale": "es",
     "appTitle": "Lista de Tareas",
     "archivedTasksTitle": "Tareas Archivadas",
     "addTask": "Añadir Tarea",
