@@ -33,13 +33,7 @@ class SEn extends S {
   String get selectedItems => 'selected';
 
   @override
-  String get delete => 'Delete';
-
-  @override
   String get deleteSelected => 'Delete Selected';
-
-  @override
-  String get archive => 'Archive';
 
   @override
   String get archiveSelected => 'Archive Selected';
@@ -49,9 +43,6 @@ class SEn extends S {
 
   @override
   String get archiveCompleted => 'Archive Completed';
-
-  @override
-  String get unarchive => 'Unarchive';
 
   @override
   String get unarchiveSelected => 'Unarchive Selected';
@@ -67,11 +58,44 @@ class SEn extends S {
 
   @override
   String get confirmDeleteMessage =>
-      'Are you sure you want to delete the selected tasks?';
+      'Are you sure you want to delete the selected items?';
+
+  @override
+  String get confirmDeleteSingleMessage =>
+      'Are you sure you want to delete this task?';
 
   @override
   String get yes => 'Yes';
 
   @override
   String get no => 'No';
+
+  @override
+  String get aboutAppTitle => 'About the App';
+
+  @override
+  String get aboutAppTooltip => 'About the App';
+
+  @override
+  String get developerSubtitle => 'Developer';
+
+  @override
+  String get librariesUsed => 'Libraries Used';
+
+  @override
+  String get providerDescription =>
+      'For simple and efficient state management.';
+
+  @override
+  String get googleAdsDescription => 'For monetization with AdMob ads.';
+
+  @override
+  String get sharedPrefsDescription => 'For data persistence on the device.';
+
+  @override
+  String get uuidDescription => 'To generate unique identifiers for each task.';
+
+  @override
+  String get intlDescription =>
+      'For internationalization and localization (multi-language).';
 }

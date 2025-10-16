@@ -33,13 +33,7 @@ class SEs extends S {
   String get selectedItems => 'seleccionados';
 
   @override
-  String get delete => 'Eliminar';
-
-  @override
   String get deleteSelected => 'Eliminar Seleccionados';
-
-  @override
-  String get archive => 'Archivar';
 
   @override
   String get archiveSelected => 'Archivar Seleccionados';
@@ -49,9 +43,6 @@ class SEs extends S {
 
   @override
   String get archiveCompleted => 'Archivar Completadas';
-
-  @override
-  String get unarchive => 'Desarchivar';
 
   @override
   String get unarchiveSelected => 'Desarchivar Seleccionados';
@@ -67,11 +58,46 @@ class SEs extends S {
 
   @override
   String get confirmDeleteMessage =>
-      '¿Está seguro de que desea eliminar las tareas seleccionadas?';
+      '¿Está seguro de que desea eliminar los elementos seleccionados?';
+
+  @override
+  String get confirmDeleteSingleMessage =>
+      '¿Está seguro de que desea eliminar esta tarea?';
 
   @override
   String get yes => 'Sí';
 
   @override
   String get no => 'No';
+
+  @override
+  String get aboutAppTitle => 'Acerca de la App';
+
+  @override
+  String get aboutAppTooltip => 'Acerca de la App';
+
+  @override
+  String get developerSubtitle => 'Desarrollador de la Aplicación';
+
+  @override
+  String get librariesUsed => 'Bibliotecas Utilizadas';
+
+  @override
+  String get providerDescription =>
+      'Para una gestión de estado simple y eficiente.';
+
+  @override
+  String get googleAdsDescription => 'Para monetización con anuncios de AdMob.';
+
+  @override
+  String get sharedPrefsDescription =>
+      'Para la persistencia de datos en el dispositivo.';
+
+  @override
+  String get uuidDescription =>
+      'Para generar identificadores únicos para cada tarea.';
+
+  @override
+  String get intlDescription =>
+      'Para internacionalización y localización (multi-idioma).';
 }

@@ -147,23 +147,11 @@ abstract class S {
   /// **'selected'**
   String get selectedItems;
 
-  /// No description provided for @delete.
-  ///
-  /// In en, this message translates to:
-  /// **'Delete'**
-  String get delete;
-
   /// No description provided for @deleteSelected.
   ///
   /// In en, this message translates to:
   /// **'Delete Selected'**
   String get deleteSelected;
-
-  /// No description provided for @archive.
-  ///
-  /// In en, this message translates to:
-  /// **'Archive'**
-  String get archive;
 
   /// No description provided for @archiveSelected.
   ///
@@ -182,12 +170,6 @@ abstract class S {
   /// In en, this message translates to:
   /// **'Archive Completed'**
   String get archiveCompleted;
-
-  /// No description provided for @unarchive.
-  ///
-  /// In en, this message translates to:
-  /// **'Unarchive'**
-  String get unarchive;
 
   /// No description provided for @unarchiveSelected.
   ///
@@ -216,8 +198,14 @@ abstract class S {
   /// No description provided for @confirmDeleteMessage.
   ///
   /// In en, this message translates to:
-  /// **'Are you sure you want to delete the selected tasks?'**
+  /// **'Are you sure you want to delete the selected items?'**
   String get confirmDeleteMessage;
+
+  /// No description provided for @confirmDeleteSingleMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure you want to delete this task?'**
+  String get confirmDeleteSingleMessage;
 
   /// No description provided for @yes.
   ///
@@ -230,6 +218,60 @@ abstract class S {
   /// In en, this message translates to:
   /// **'No'**
   String get no;
+
+  /// No description provided for @aboutAppTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'About the App'**
+  String get aboutAppTitle;
+
+  /// No description provided for @aboutAppTooltip.
+  ///
+  /// In en, this message translates to:
+  /// **'About the App'**
+  String get aboutAppTooltip;
+
+  /// No description provided for @developerSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Developer'**
+  String get developerSubtitle;
+
+  /// No description provided for @librariesUsed.
+  ///
+  /// In en, this message translates to:
+  /// **'Libraries Used'**
+  String get librariesUsed;
+
+  /// No description provided for @providerDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'For simple and efficient state management.'**
+  String get providerDescription;
+
+  /// No description provided for @googleAdsDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'For monetization with AdMob ads.'**
+  String get googleAdsDescription;
+
+  /// No description provided for @sharedPrefsDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'For data persistence on the device.'**
+  String get sharedPrefsDescription;
+
+  /// No description provided for @uuidDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'To generate unique identifiers for each task.'**
+  String get uuidDescription;
+
+  /// No description provided for @intlDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'For internationalization and localization (multi-language).'**
+  String get intlDescription;
 }
 
 class _SDelegate extends LocalizationsDelegate<S> {

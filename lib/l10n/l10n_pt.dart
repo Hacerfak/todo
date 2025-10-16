@@ -33,13 +33,7 @@ class SPt extends S {
   String get selectedItems => 'selecionados';
 
   @override
-  String get delete => 'Excluir';
-
-  @override
   String get deleteSelected => 'Excluir Selecionados';
-
-  @override
-  String get archive => 'Arquivar';
 
   @override
   String get archiveSelected => 'Arquivar Selecionados';
@@ -49,9 +43,6 @@ class SPt extends S {
 
   @override
   String get archiveCompleted => 'Arquivar Concluídas';
-
-  @override
-  String get unarchive => 'Desarquivar';
 
   @override
   String get unarchiveSelected => 'Desarquivar Selecionados';
@@ -67,11 +58,46 @@ class SPt extends S {
 
   @override
   String get confirmDeleteMessage =>
-      'Você tem certeza que deseja excluir as tarefas selecionadas?';
+      'Você tem certeza que deseja excluir os itens selecionados?';
+
+  @override
+  String get confirmDeleteSingleMessage =>
+      'Você tem certeza que deseja excluir esta tarefa?';
 
   @override
   String get yes => 'Sim';
 
   @override
   String get no => 'Não';
+
+  @override
+  String get aboutAppTitle => 'Sobre o App';
+
+  @override
+  String get aboutAppTooltip => 'Sobre o App';
+
+  @override
+  String get developerSubtitle => 'Desenvolvedor';
+
+  @override
+  String get librariesUsed => 'Bibliotecas Utilizadas';
+
+  @override
+  String get providerDescription =>
+      'Para um gerenciamento de estado simples e eficiente.';
+
+  @override
+  String get googleAdsDescription => 'Para monetização com anúncios do AdMob.';
+
+  @override
+  String get sharedPrefsDescription =>
+      'Para persistência de dados no dispositivo.';
+
+  @override
+  String get uuidDescription =>
+      'Para gerar identificadores únicos para cada tarefa.';
+
+  @override
+  String get intlDescription =>
+      'Para internacionalização e localização (multi-idioma).';
 }
